@@ -1,0 +1,57 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+
+
+    <!--&lt;!&ndash; Milligram stylesheet &ndash;&gt;-->
+
+    <!--<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">-->
+
+    <!--<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">-->
+
+    <!--<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">-->
+
+
+
+    <!--&lt;!&ndash; Custom stylesheet &ndash;&gt;-->
+
+    <!--<link rel="stylesheet" href="css/styles.css" type="text/css">-->
+
+
+
+    <title>Create Tasks</title>
+
+
+
+</head>
+
+<body>
+
+
+
+<h1>Enter a new task</h1>
+
+
+
+<form action="#" method="POST" th:action="@{/addTask}" th:object="${task}">
+
+    <input type="text" placeholder="task description" th:field="*{text}" />
+
+    Urgent? <input type="checkbox" th:field="*{urgent}" />
+
+    <br>
+
+    <button id="add-task">Add Task</button>
+
+</form>
+
+
+
+<a href="/allTasks">All Tasks</a>
+
+
+
+</body>
+
+</html>

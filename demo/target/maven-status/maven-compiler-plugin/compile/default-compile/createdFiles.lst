@@ -1,0 +1,4 @@
+com\nic\demo\Repository\TaskRepository.class
+com\nic\demo\DemoApplication.class
+com\nic\demo\Model\Task.class
+com\nic\demo\Controller\TaskController.class
