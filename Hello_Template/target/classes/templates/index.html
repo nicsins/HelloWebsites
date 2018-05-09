@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
-<head>
+
+xmlns:th="http://www.thymeleaf.org">
+<head >
     <meta charset="UTF-8">
-    <title>Hello Template</title>
+    <title >Hello Templates</title>
+
+
 </head>
-<body>
-<h1>Hello Spring</h1>
-
-<h2>My favorite food</h2>
-
-<ul>
-    <li th:each="food : ${favoriteFoods}" th:text="${food}"></li>
-</ul>
-
-<h2>Kitty Picture</h2>
-
-<img src="../img/kitty2.png">
+<body style="background-color:yellowgreen;font-family: Verdana; color :navy;font-size:20px;font-style: italic;">
+<h1 style="font-family:Verdana;color:navy;font-size:70px;font-style:italic;text-align:center">Hello Spring</h1>
 <p>My Favorite Movie is <span th:text="${favoriteMovie}"></span></p>
 <P>This site is Built buy  <span th:text="${author}"></span></p>
+
+<h2 style="font-family:Verdana;color:navy;font-size:50px;font-style:italic;text-align:center">My favorite food</h2>
+<ul style="font-family: Verdana; color :navy;font-size:20px;font-style: italic; ">
+    <li  th:each="food : ${favoriteFoods}" th:text="${food}"></li>
+</ul >
+
+<h2 style="font-family:Verdana;color:navy;font-size:50px;font-style:italic;text-align:center">Kitty Picture</h2>
+
+<img src="../img/kitty2.jpg" ;height="600" width="300";  align="right
+" >
+
+
 </body>
 </html>

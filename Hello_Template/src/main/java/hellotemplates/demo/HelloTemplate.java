@@ -16,7 +16,7 @@ public class HelloTemplate {
     public String home(Model model){
         model.addAttribute("author","Nicsins");
 
-        List favoriteFoods = Arrays.asList("pizza", "tacos", "ice cream");
+        List favoriteFoods = Arrays.asList("pizza", "tacos", "ice cream","Sushi","Fruit snacks");
         model.addAttribute("favoriteFoods", favoriteFoods);
         model.addAttribute("favoriteMovie","Pulp Fiction !");
         return "index.html";
