@@ -1,0 +1,5 @@
+com\nic\taskdb\controller\TaskAPIController.class
+com\nic\taskdb\repository\TaskRepository.class
+com\nic\taskdb\controller\TaskController.class
+com\nic\taskdb\model\Task.class
+com\nic\taskdb\TaskdbApplication.class
