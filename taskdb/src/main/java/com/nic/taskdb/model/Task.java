@@ -5,9 +5,7 @@ package com.nic.taskdb.model;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 
-/*******
- * Created by clara on 3/30/18.
- *****/
+
 
 @Entity
 public class Task {
